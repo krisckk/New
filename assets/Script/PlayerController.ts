@@ -32,6 +32,10 @@ export default class PlayerController extends cc.Component {
     onLoad() {
         // Initialize animation component
         this.anim = this.getComponent(cc.Animation);
+        cc.director.getPhysicsManager().enabled = true;
+    
+        // Set gravity (negative Y for downward gravity)
+        cc.director.getPhysicsManager().gravity = cc.v2(0, -980);
 
         // Set up input listeners
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);

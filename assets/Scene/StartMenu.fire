@@ -266,7 +266,7 @@
         "__id__": 128
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -3549,7 +3549,7 @@
         "__id__": 121
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -6495,6 +6495,9 @@
     },
     "realLoginButton": {
       "__id__": 74
+    },
+    "bgmClip": {
+      "__uuid__": "c83f44e8-4efa-4c95-a56e-125914e0dd79"
     },
     "_id": "523qjuT7ZOl74HF/lBfOq7"
   },
